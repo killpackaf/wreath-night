@@ -74,6 +74,16 @@
       }
 
       .invite-wrap { position: sticky; top: 24px; }
+      .invite-wrap::after {
+        content: "";
+        position: absolute;
+        top: 69.2%;
+        left: 59.5%;
+        width: 35%;
+        height: 8%;
+        background: var(--olive);
+        pointer-events: none;
+      }
       .invite {
         display: block;
         width: 100%;
